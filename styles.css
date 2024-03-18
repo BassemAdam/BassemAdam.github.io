@@ -25,6 +25,11 @@
 .footer-style {
     background-color: #5D0E41;
 }
+.logoSkills {
+    max-width: 100px !important;
+    max-height: 100px !important;
+}
+/* ------------------------------------------------------------------------------------------------*/
 .owl-carousel .card {
     transition: transform 0.5s ease;
 }
