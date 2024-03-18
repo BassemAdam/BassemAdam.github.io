@@ -134,7 +134,7 @@
     right: -15px;
 }
 .navbar-scrolled {
-    background-color: #efefeffb !important;
+    background-color: #b9e3eefb !important;
     transition: background-color 0.5s ease;
 }
 
@@ -150,25 +150,14 @@
 
 .display-4.text-left {
     animation: 1s ease-out 0s 1 slideInFromLeft;
-    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000;
 }
 
 
-h2 {
-    text-shadow: 0 0 10px #f8f7f7, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff;
-}
-@keyframes glow {
-    0% {
-        text-shadow: 0 0 10px #f380cc, 0 0 20px #fd5cf7, 0 0 30px #f045f3, 0 0 40px #0c92f3;
-    }
-    100% {
-        text-shadow: none;
-    }
-}
+
 
 .timeline-item{
     animation: 2s ease-out 0s 1 glow;
 }
 .body-style {
-    box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000;
+    box-shadow: 0 0 10px #94deef, 0 0 20px #87b5e7, 0 0 30px #7cd4f4, 0 0 40px #3abfef;
 }
