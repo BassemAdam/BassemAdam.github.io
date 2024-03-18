@@ -57,7 +57,7 @@
           <div class="row">
             <div class="col-12">
               <div class="row">
-                <div class="col-8">
+                <div class="col-12 col-md-8 mt-4">
                   <h1 class="display-4 text-left">Basim Adam</h1>
                   <p class="lead text-left">
                     Hey, my name is Bassem Adam. I'm a Computer Engineering
@@ -67,12 +67,8 @@
                     XD
                   </p>
                 </div>
-                <div class="col-4">
-                  <img
-                    src="myCharacter.jpg"
-                    class="img-style"
-                    alt="picture of me"
-                  />
+                <div class="col-12 col-md-4 d-flex justify-content-center mt-5 mb-3">
+                  <img src="myCharacter.jpg" class="img-style" alt="picture of me" />
                 </div>
               </div>
               <div class="d-flex justify-content-center">
@@ -92,26 +88,31 @@
           <div class="card m-1" style="width: 15rem">
             <div class="card-body text-center">
               <h5 class="card-title">VHDL</h5>
+              <img class="logoSkills" src="Images/vhdl.png" alt="vhdl logo">
             </div>
           </div>
           <div class="card m-1" style="width: 15rem">
             <div class="card-body text-center">
               <h5 class="card-title">C++ (GUI libraries, Datastructure)</h5>
+              <img class="logoSkills" src="Images/c-.png" alt="vhdl logo">
             </div>
           </div>
           <div class="card m-1" style="width: 15rem">
             <div class="card-body text-center">
               <h5 class="card-title">SQL</h5>
+              <img class="logoSkills" src="Images/sql-server.png" alt="vhdl logo">
             </div>
           </div>
           <div class="card m-1" style="width: 15rem">
             <div class="card-body text-center">
               <h5 class="card-title">C# (Windows Forms, SQL Express)</h5>
+              <img class="logoSkills" src="Images/c-sharp.png" alt="vhdl logo">
             </div>
           </div>
           <div class="card m-1" style="width: 15rem">
             <div class="card-body text-center">
               <h5 class="card-title">Python (Django , NumPy)</h5>
+              <img class="logoSkills" src="Images/python.png" alt="vhdl logo">
             </div>
           </div>
           <div class="card m-1" style="width: 15rem">
@@ -119,23 +120,26 @@
               <h5 class="card-title">
                 HTML, CSS, JavaScript (React, Bootstrap)
               </h5>
+              <img class="logoSkills" src="Images/html.png" alt="vhdl logo">
             </div>
           </div>
           <div class="card m-1" style="width: 15rem">
             <div class="card-body text-center">
               <h5 class="card-title">Assembly (intel 8086 , GUI interupts)</h5>
+              <img class="logoSkills" src="Images/th (1).jpeg" alt="vhdl logo">
             </div>
           </div>
           <div class="card m-1" style="width: 15rem">
             <div class="card-body text-center">
               <h5 class="card-title">Matlab</h5>
+              <img class="logoSkills" src="Images/MATLAB-Logo.png" alt="vhdl logo">
             </div>
           </div>
         </div>
       </section>
-      <section id="experience" class="my-5">
+      <section id="experience" class="my-5 d-none d-lg-block d-md-block">
         <h2 data-aos="fade-in" class="text-center text-white bg-dark">Experience</h2>
-        <div class="timeline" >
+        <div class="timeline  " >
           <div class="timeline-item" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-out">
             <div class="timeline-icon"></div>
             <div class="timeline-content body-style" >
@@ -179,14 +183,52 @@
           <!-- i can here add more timelines if needed label -->
         </div>
       </section>
+      <section id="experience-sm" class="my-5 d-block d-lg-none  d-md-none">
+        <h2 data-aos="fade-in" class="text-center text-white bg-dark">Experience</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <h5 class="card-title">Math A Level Teacher Assistant at Cairo British School Thebes</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Nov 2020 - Jun 2021</h6>
+                  <p class="card-text">Corrected exams and assignments, provided feedback to students, and analyzed student performance data.</p>
+                </div>
+              </div>
+              <div class="card mb-3">
+                <div class="card-body">
+                  <h5 class="card-title">Radio Planning Intern at Vodafone</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Feb 2023 - Mar 2023</h6>
+                  <p class="card-text">Attended a comprehensive training program, learned about KPIs and the company's operations and technologies.</p>
+                </div>
+              </div>
+              <div class="card mb-3">
+                <div class="card-body">
+                  <h5 class="card-title">Technology & App intern</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Aug 2023 - Aug 2023</h6>
+                  <p class="card-text">Designed and implemented web interfaces, developed interactive web pages, collaborated with backend developers, and ensured website performance.</p>
+                </div>
+              </div>
+              <!-- ... -->
+            </div>
+          </div>
+        </div>
+      </section>
       <section id="projects" class="my-5">
         <h2 data-aos="fade-in" class="text-center text-white bg-dark">Projects</h2>
         <div class="owl-carousel owl-theme">
-          <div class="item">
-            <div class="card" ">
-              <div class="card-body text-center">
-                <h2 class="card-title">Project 1</h2>
-                <p class="card-text">Description of Project 1.</p>
+          <div class="item ">
+            <div class="card " ">
+              <div class="card-body text-center ">
+                
+                <h2 class="card-title">Process Scheduler
+                </h2>
+                <img src="Images/iteration.png" class="logo mx-auto d-block" alt="Logo">
+                <p class="card-text">Simulated a process scheduler in C++ using data structures (linked lists, queues, stacks) to manage process execution on a
+                  computer system. Implemented four processor types (Round Robin, FCFS, SJF, EDF) each with its own scheduling algorithm.
+                  
+                  </p>
+                <a href="https://github.com/BassemAdam/Basic-ALU--Logic-design-I/tree/main" class="btn btn-primary">See Project</a>
               </div>
             </div>
           </div>
@@ -213,29 +255,29 @@
                 <h2 class="card-title">Med Connect
                 </h2>
                 <img src="Images/connection.png" class="logo mx-auto d-block" alt="Logo">
-                <p class="card-text">•Collaborated in a four-member team to develop a database project using SQL Express and Winforms C# for GUI, involving the
+                <p class="card-text">Collaborated in a four-member team to develop a database project using SQL Express and Winforms C# for GUI, involving the
                   creation of procedures for effective management.
                   </p>
                 <a href="https://github.com/BassemAdam/Basic-ALU--Logic-design-I/tree/main" class="btn btn-primary">See Project</a>
               </div>
             </div>
           </div>
-          <div class="item">
-            <div class="card" ">
-              <div class="card-body text-center">
-                <h2 class="card-title">Project 3</h2>
-                <p class="card-text">Description of Project 3.</p>
+          <div class="item ">
+            <div class="card " ">
+              <div class="card-body text-center ">
+                
+                <h2 class="card-title">Logic Racing Game
+                </h2>
+                <img src="Images/gameplay.png" class="logo mx-auto d-block" alt="Logo">
+                <p class="card-text">Created a logic simulation game in Assembly Intel 8086, utilizing GUI interrupts to develop a UI. Implemented functions with a
+                  single interrupt, gradually drawing pixels to create a comprehensive UI for the game.
+                  </p>
+                <a href="https://github.com/BassemAdam/Basic-ALU--Logic-design-I/tree/main" class="btn btn-primary">See Project</a>
               </div>
             </div>
           </div>
-          <div class="item">
-            <div class="card" ">
-              <div class="card-body text-center">
-                <h2 class="card-title">Project 3</h2>
-                <p class="card-text">Description of Project 3.</p>
-              </div>
-            </div>
-          </div>
+       
+        
           <!-- Add more items as needed -->
         </div>
       </section>
